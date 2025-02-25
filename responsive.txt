@@ -1,0 +1,23 @@
+<div className='p-4 flex flex-col gap-4'>
+                    <div className="grid gap-4 md:grid-cols-12 sm:grid-cols-1">
+                        <div className="grid gap-4 md:col-span-8 sm:col-span-1">
+                            {/* Card A (Above Cards 1,2,3) */}
+                            <div className=" bg-blue-300 p-6 rounded-lg shadow-md">Card A</div>
+
+                            {/* Cards 1, 2, 3 in a single row */}
+                            <div className="grid md:grid-cols-12 sm:grid-cols-1 gap-4">
+                                <div className="bg-blue-300 p-6 rounded-lg shadow-md md:col-span-3 sm:col-span-1">Card 1</div>
+                                <div className="bg-blue-300 p-6 rounded-lg shadow-md md:col-span-3 sm:col-span-1">Card 2</div>
+                                <div className="bg-green-300 p-6 rounded-lg shadow-md md:col-span-6 sm:col-span-1">Card 3</div>
+                            </div>
+                        </div>
+                        <div className="bg-green-300 p-6 rounded-lg shadow-md md:col-span-4 sm:col-span-1">Card 4</div>
+                    </div>
+
+                    {/* Second Row */}
+                    <div className="grid md:grid-cols-12 sm:grid-cols-1 gap-4 col-span-12">
+                        <div className="bg-yellow-300 p-6 rounded-lg shadow-md md:col-span-4 sm:col-span-1">Card 5</div>
+                        <div className="bg-yellow-300 p-6 rounded-lg shadow-md md:col-span-4 sm:col-span-1">Card 6</div>
+                        <div className="bg-yellow-300 p-6 rounded-lg shadow-md md:col-span-4 sm:col-span-1">Card 7</div>
+                    </div>
+                </div>
